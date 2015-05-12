@@ -1,16 +1,19 @@
-﻿Build started 4/2/2015 10:08:52 PM.
-     1>Project "C:\Users\DAnnTheMann\Documents\Visual Studio 2013\Projects\Project1\Project1\Project1.vcxproj" on node 2 (Build target(s)).
-     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppBuild.targets(388,5): warning MSB8028: The intermediate directory (Debug\) contains files shared from another project (Project1.vcxproj).  This can lead to incorrect clean and rebuild behavior.
+﻿Build started 5/10/2015 9:25:27 PM.
+     1>Project "C:\Users\DAnnTheMann\Documents\GitHub\WindowsSandbox\Project1\Project1\Project1.vcxproj" on node 2 (Build target(s)).
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppBuild.targets(388,5): warning MSB8028: The intermediate directory (Debug\) contains files shared from another project (DropMyRights.vcxproj, Project1.vcxproj).  This can lead to incorrect clean and rebuild behavior.
      1>ClCompile:
-         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt DropMyRights.cpp
-         DropMyRights.cpp
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt Pc2Sandbox.cpp stdafx.cpp
+         Pc2Sandbox.cpp
+         Generating Code...
+         Skipping... (no relevant changes detected)
+         stdafx.cpp
        Link:
-         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\DAnnTheMann\Documents\Visual Studio 2013\Projects\Project1\Debug\DropMyRights.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Users\DAnnTheMann\Documents\Visual Studio 2013\Projects\Project1\Debug\DropMyRights.pdb" /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\DAnnTheMann\Documents\Visual Studio 2013\Projects\Project1\Debug\DropMyRights.lib" /MACHINE:X86 Debug\DropMyRights.obj
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\DAnnTheMann\Documents\GitHub\WindowsSandbox\Project1\Debug\Pc2Sandbox.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Users\DAnnTheMann\Documents\GitHub\WindowsSandbox\Project1\Debug\Pc2Sandbox.pdb" /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\DAnnTheMann\Documents\GitHub\WindowsSandbox\Project1\Debug\Pc2Sandbox.lib" /MACHINE:X86 Debug\Pc2Sandbox.obj
          Debug\stdafx.obj
-         LINK : C:\Users\DAnnTheMann\Documents\Visual Studio 2013\Projects\Project1\Debug\DropMyRights.exe not found or not built by the last incremental link; performing full link
-         Project1.vcxproj -> C:\Users\DAnnTheMann\Documents\Visual Studio 2013\Projects\Project1\Debug\DropMyRights.exe
-     1>Done Building Project "C:\Users\DAnnTheMann\Documents\Visual Studio 2013\Projects\Project1\Project1\Project1.vcxproj" (Build target(s)).
+         LINK : C:\Users\DAnnTheMann\Documents\GitHub\WindowsSandbox\Project1\Debug\Pc2Sandbox.exe not found or not built by the last incremental link; performing full link
+         Project1.vcxproj -> C:\Users\DAnnTheMann\Documents\GitHub\WindowsSandbox\Project1\Debug\Pc2Sandbox.exe
+     1>Done Building Project "C:\Users\DAnnTheMann\Documents\GitHub\WindowsSandbox\Project1\Project1\Project1.vcxproj" (Build target(s)).
 
 Build succeeded.
 
-Time Elapsed 00:00:02.39
+Time Elapsed 00:00:01.83

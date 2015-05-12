@@ -13,7 +13,7 @@
   <PropertyGroup Label="Globals">
     <ProjectGuid>{7463E309-411A-4C4B-A4FA-E6431BA0A660}</ProjectGuid>
     <RootNamespace>Project1</RootNamespace>
-    <ProjectName>DropMyRights</ProjectName>
+    <ProjectName>Pc2Sandbox</ProjectName>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
@@ -65,7 +65,7 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="DropMyRights.cpp" />
+    <ClCompile Include="Pc2Sandbox.cpp" />
     <ClCompile Include="stdafx.cpp" />
   </ItemGroup>
   <ItemGroup>
